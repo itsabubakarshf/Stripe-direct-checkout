@@ -4,10 +4,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import OrderComplete from './OrderComplete'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
-  PaymentElement,
   Elements,
-  useStripe,
-  useElements,
 } from "@stripe/react-stripe-js";
 import CheckoutForm from './CheckoutForm'
 
